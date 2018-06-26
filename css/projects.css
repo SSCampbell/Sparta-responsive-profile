@@ -2,53 +2,55 @@
   padding-top:30px;
   height: 200px;
   width: 300px;
+
 }
 
 .tile1 {
-	display: inline-block;
-	width: 30%;
-	margin-right: 3%;
-	margin-top: 25px;
-	text-align: center;
-	border: 2px solid #E13A63;
+  display: inline-block;
+  border: 2px solid #E13A63;
 	box-sizing: border-box;
+  text-align: center;
+  min-width: 200px;
 }
 
 .tile2 {
-	display: inline-block;
-	width: 30%;
-	margin-right: 3px;
-	margin-top: 25px;
-	text-align: center;
-	border: 2px solid #E13A63;
+  display: inline-block;
+  border: 2px solid #E13A63;
 	box-sizing: border-box;
+  text-align: center;
+  min-width: 200px;
 }
 
 .tile3 {
-	display: inline-block;
-	width: 30%;
-	margin-right: 3px;
-	margin-top: 25px;
-	text-align: center;
-	border: 2px solid #E13A63;
+  display: inline-block;
+  border: 2px solid #E13A63;
 	box-sizing: border-box;
+  text-align: center;
+  min-width: 200px;
 }
 
 .tile img	{
 
 	margin: 0 auto;
-  padding-right: -9px;
+display: block;
 }
 
-@media screen and (max-width: 1000px){
+
+
+@media screen and (max-width: 1070px){
 .tile1,.tile2,.tile3 {
 
-    border:none;
-}
+
+	border: 2px solid #E13A63;
+	box-sizing: border-box;
 
 }
 
-@media screen and (max-width: 800px){
-  .tile {
+}
 
+@media screen and (max-width: 500px){
+  .tile1{
+border:none;
+
+}
 }
