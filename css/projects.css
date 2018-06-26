@@ -47,10 +47,6 @@ display: block;
 }
 
 }
-
-@media screen and (max-width: 500px){
-  .tile1{
-border:none;
-
-}
+.link {
+  display: inline-block;
 }
